@@ -1,0 +1,86 @@
+h3 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* to place the grid item  */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(205, 205, 205);
+    display: grid;
+}
+
+/* align to set the position of items in terms of vertical axis, and justify set the position of items in terms of horizontal axis */
+.containergrid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-items: end;
+}
+
+/* shorthand align and justify */
+.containergrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    place-items: end center;
+}
+
+/* set the position of container if there is space in the parent */
+.containergrid3 {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: end;
+}
+
+.header1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.header2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 159, 255);
+}
+.header3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(88, 255, 46);
+}
+.header4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 77, 136);
+}
+.header5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 255, 37);
+}
+.header6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+.header7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 255, 26);
+}
+.header8 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 156, 18);
+}
+.header9 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 6, 172);
+}
+
+
+
